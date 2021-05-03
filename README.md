@@ -1,9 +1,12 @@
-# MECH105-Algorithms
-These are the algorithms I created for MECH105, utilizing different numerical methods.
-- Please go to the labeled branches to learn more about each code
-## **False Position**
-False Position is a root finding closed bracketing method
-## **LU Decomposition**
-LU Decomposition turns an matrix of data into an upper and lower triangular matrix
-## **Simpson's 1/3**
+# **Simpson's 1/3**
 Simpson's 1/3 is a code that is the integration method that can solve data that is not continuous
+## Inputs
+Inputs include:
+- x: a vector containg equally spaced independent variables
+- y: the function values with respect to x
+## Outputs
+Outputs include:
+- I: the value found using the integration method
+## Limitations
+- inputes must be the same length, unequal vector sizes returns an eroor
+- if there is an uneven number of segments the trapezoid will be implemented in the last run
