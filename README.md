@@ -1,5 +1,5 @@
 # **LU Decomposition**
-LU Decomposition turns an matrix of data into an upper and lower triangular matrix
+LU Decomposition turns a matrix of data into an upper and lower triangular matrix
 ## Inputs
 Inputs include:
 - A: a matrix of coefficients 
