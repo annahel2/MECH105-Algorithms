@@ -1,8 +1,17 @@
-# MECH105-Algorithms
-These are the algorithms I created for MECH105, utilizing different numerical methods.
-## **False Position**
+# **False Position**
 False Position is a root finding closed bracketing method
-## **LU Decomposition**
-LU Decomposition turns an matrix of data into an upper and lower triangular matrix
-## **Simpson's 1/3**
-Simpson's 1/3 is a code that is the integration method that can solve data that is not continuous numerically. 
+## Inputs
+The inputs include: 
+func: the function being evaluated
+xl: the lower guess
+xu: the upper guess
+es: the desried relative error
+maxit: the max number of iterations
+## Outputs
+The outputs include:
+root: the root of the given problem
+fx: the value of the function at the root
+ea: the approximate relative error
+iter: how many iterations were performed
+## Limitations
+False position is a closed bracketing method so it will take some time as opposed to an open bracketing method. However, it will always solve for the root. If the xl and xu do not encompass the root an error will be displayed on the code. 
